@@ -1,0 +1,79 @@
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Login Page */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+/* Home Page */
+.home-container {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer a {
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* This will disable scrolling only on Login and Signup pages */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+/* Enable scrolling by default */
+body {
+  overflow: auto;
+}
+
+/* Prevent scrolling only for login and signup pages */
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
