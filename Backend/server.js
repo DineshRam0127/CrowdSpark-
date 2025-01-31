@@ -28,6 +28,7 @@ const User = mongoose.model("User", userSchema);
 // **Signup Route**
 app.post("/api/auth/signup", async (req, res) => {
   const { name, email, password } = req.body;
+  console.log(req.body);
   if (!name || !email || !password) return res.status(400).json({ message: "All fields are required" });
 
   try {
